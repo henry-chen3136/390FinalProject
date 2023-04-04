@@ -4,11 +4,11 @@ import h5py
 cass_jumping = np.loadct(open("C:/Users/Cassie G/Documents/390FinalProject-1/jumping_cg.csv"), delimiter=",", skiprows=1)
 cass_walking = np.loadct(open("C:/Users/Cassie G/Documents/390FinalProject-1/walking_cg.csv"), delimiter=",", skiprows=1)
 
-leo_jumping = np.loadct(open("C:/Users/Cassie G/Documents/390FinalProject-1/AllJumpingLeo.csv"), delimiter=",", skiprows=1)
-leo_walking = np.loadct(open("C:/Users/Cassie G/Documents/390FinalProject-1/AllWalkingLeo.csv"), delimiter=",", skiprows=1)
+leo_jumping = np.loadct(open("C:/Users/Cassie G/Documents/390FinalProject-1/jumping_lp.csv"), delimiter=",", skiprows=1)
+leo_walking = np.loadct(open("C:/Users/Cassie G/Documents/390FinalProject-1/walking_lp.csv"), delimiter=",", skiprows=1)
 
-henry_jumping = np.loadct(open("C:/Users/Cassie G/Documents/390FinalProject-1/_______.csv"), delimiter=",", skiprows=1)
-henry_walking = np.loadct(open("C:/Users/Cassie G/Documents/390FinalProject-1/_______.csv"), delimiter=",", skiprows=1)
+henry_jumping = np.loadct(open("C:/Users/Cassie G/Documents/390FinalProject-1/jumping_hc.csv"), delimiter=",", skiprows=1)
+henry_walking = np.loadct(open("C:/Users/Cassie G/Documents/390FinalProject-1/walking_hc.csv"), delimiter=",", skiprows=1)
 
 #writing to hdf5
 with h5py.File('./hdf5_data.h5' , 'w') as hdf:
