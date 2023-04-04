@@ -18,6 +18,6 @@ labels = ds.iloc[?, ?]
                  
 #determine how to divide each signal inot 5-second windows
 
-#assigning 10% of the data to the test data set 
+#assigning 10% of the data to the test data set. 
 X_train, X_test, y_train, y_test = \
     train_test_split(data, labels, test_size=0.1, shuffle=True, random_state=0)
