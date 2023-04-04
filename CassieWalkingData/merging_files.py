@@ -1,8 +1,8 @@
 import pandas as pd
 
-merge1 = ['C:/Users/Cassie G/Documents/390FinalProject-1/CassieWalkingData/JumpingPhonePocketcg.csv',
-         'C:/Users/Cassie G/Documents/390FinalProject-1/CassieWalkingData/jumpingcg.csv',
-         'C:/Users/Cassie G/Documents/390FinalProject-1/CassieWalkingData/jumpingPhoneHandcg.csv'
+merge1 = ['C:/Users/Cassie G/Documents/390FinalProject-1/CassieJumpingData/JumpingPhonePocketcg.csv',
+         'C:/Users/Cassie G/Documents/390FinalProject-1/CassieJumpingData/jumpingcg.csv',
+         'C:/Users/Cassie G/Documents/390FinalProject-1/CassieJumpingData/jumpingPhoneHandcg.csv'
          ]
 
 data_frame1 = pd.DataFrame()
@@ -13,7 +13,7 @@ for csv1 in merge1:
 
 data_frame1.to_csv('jumping_cg.csv', index=False)
 
-merge2 = ['C:/Users/Cassie G/Documents/390FinalProject-1/CassieWalkingData/walkingHandcgNew.csv',
+merge2 = ['C:/Users/Cassie G/Documents/390FinalProject-1/CassieWalkingData/walkingHandcg.csv',
          'C:/Users/Cassie G/Documents/390FinalProject-1/CassieWalkingData/walkingHoodiePocketcg.csv',
          'C:/Users/Cassie G/Documents/390FinalProject-1/CassieWalkingData/WalkingPhonePocketcg.csv'
          ]
