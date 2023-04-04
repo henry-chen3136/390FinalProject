@@ -1,8 +1,8 @@
 import pandas as pd
 
-merge1 = ['C:/Users/Cassie G/Documents/390FinalProject-1/CassieData/JumpingPhonePocketcg.csv',
-         'C:/Users/Cassie G/Documents/390FinalProject-1/CassieData/jumpingcg.csv',
-         'C:/Users/Cassie G/Documents/390FinalProject-1/CassieData/jumpingPhoneHandcg.csv'
+merge1 = ['C:/Users/Cassie G/Documents/390FinalProject-1/CassieWalkingData/JumpingPhonePocketcg.csv',
+         'C:/Users/Cassie G/Documents/390FinalProject-1/CassieWalkingData/jumpingcg.csv',
+         'C:/Users/Cassie G/Documents/390FinalProject-1/CassieWalkingData/jumpingPhoneHandcg.csv'
          ]
 
 data_frame1 = pd.DataFrame()
@@ -13,9 +13,9 @@ for csv1 in merge1:
 
 data_frame1.to_csv('jumping_cg.csv', index=False)
 
-merge2 = ['C:/Users/Cassie G/Documents/390FinalProject-1/CassieData/walkingHandcg.csv',
-         'C:/Users/Cassie G/Documents/390FinalProject-1/CassieData/walkingHoodiePocketcg.csv',
-         'C:/Users/Cassie G/Documents/390FinalProject-1/CassieData/WalkingPhonePocketcg.csv'
+merge2 = ['C:/Users/Cassie G/Documents/390FinalProject-1/CassieWalkingData/walkingHandcgNew.csv',
+         'C:/Users/Cassie G/Documents/390FinalProject-1/CassieWalkingData/walkingHoodiePocketcg.csv',
+         'C:/Users/Cassie G/Documents/390FinalProject-1/CassieWalkingData/WalkingPhonePocketcg.csv'
          ]
 
 data_frame2 = pd.DataFrame()
