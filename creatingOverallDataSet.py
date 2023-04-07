@@ -16,7 +16,8 @@ ds= pd.read_csv("C:/Users/Cassie G/Documents/390FinalProject-1/datasetOverall.cs
 data = ds.iloc[:, 1:4]
 labels = ds.iloc[:, 0]
                  
-#determine how to divide each signal inot 5-second windows
+#determine how to divide each signal into 5-second windows
+
 
 #assigning 10% of the data to the test data set. 
 X_train, X_test, y_train, y_test = \
