@@ -40,9 +40,9 @@ walkCG['person'] = 0
 walkHC['person'] = 1
 walkLP['person'] = 2
 
-walkCG['method'] = 0
-walkHC['method'] = 0
-walkLP['method'] = 0
+walkCG['method'] = 1
+walkHC['method'] = 1
+walkLP['method'] = 1
 
 walkCG.to_csv('C:/Users/Cassie G/Documents/390FinalProject-1/walking_cg.csv')
 walkHC.to_csv('C:/Users/Cassie G/Documents/390FinalProject-1/walking_hc.csv')
